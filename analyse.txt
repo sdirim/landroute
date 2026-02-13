@@ -1,0 +1,47 @@
+"route" : [ "CZE" , "ITA" ]
+
+"route" : [ "CZE" , "AUT" , "ITA" ]
+
+depart ==> "cca3": "CZE",
+
+arrivé ==> "cca3": "ITA",
+
+Depart  ENFANT  petitenfant    petitpetitenfant
+"CZE" : 
+	"DEU",   
+		"AUT",
+            	"BEL",
+            	"CZE",
+            	"DNK",
+            	"FRA",  	"AND"
+            			"BEL"
+            			"DEU"
+            			"ITA"
+            			"LUX"
+            			"MCO"
+            			"ESP"
+            			"CHE"
+            	"LUX",
+            	"NLD",
+            	"POL",
+            	"CHE"
+	"POL",
+	"AUT",
+		"CZE"
+            	"DEU"
+            	"HUN"
+            	"ITA" 
+            	"LIE"
+            	"SVK"
+            	"SVN"
+            	"CHE"
+	"SVK"
+
+
+
+1) extraire les borders du pays de depart ==> 
+2) pour chaque pays de cette liste, parcourir les borders et vérifie que celui ci est egal à la destination ?
+
+
+
+kivin dijon : commercial à partir de 16h 
